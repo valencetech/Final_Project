@@ -10,7 +10,7 @@ public class Save_Data
   public static void save(Record[] record, String directory, String file_name)
   { tempFile = new File(directory, file_name);
 
-  //This function will write in object stream
+  //This function will write in object stream, that's right
 
   try
     {  dos = new ObjectOutputStream(new FileOutputStream(tempFile));
